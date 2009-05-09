@@ -6,5 +6,3 @@ custom templating system
 allowing other Rails code to be implemented easily via typical Rails development
 easy page composition/editing through the use of BBcode (instead of html)
 page revision history
-
-just checking to see if I can get git to work and push to github
