@@ -1,0 +1,9 @@
+Add some sort of text editor (either BBCode or Textile) through use of plugin or other code
+	- Textile (http://github.com/felttippin/textile-editor-helper/tree/master)
+	- BBCode (http://www.nazgum.com/2008/01/08/bbcode-with-ruby-on-rails-part-1/)
+
+Add acts_as_versioned plugin for pages model
+
+Need to add keyword exclusion to pages model for validation purposes
+
+Need to add a way to add templating system
