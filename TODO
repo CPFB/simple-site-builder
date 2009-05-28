@@ -1,6 +1,16 @@
 Add some sort of text editor (either BBCode or Textile) through use of plugin or other code
 	- Textile (http://github.com/felttippin/textile-editor-helper/tree/master)
-	- BBCode (http://www.nazgum.com/2008/01/08/bbcode-with-ruby-on-rails-part-1/)
+	- BBCode (need to get icons for each function of bbcode)
+		- Bold (text_bold.png)
+		- Italic (text_italic.png)
+		- Underline (text_underline.png)
+		- Strikethrough (text_strikethrough.png)
+		- Image (image.png)
+		- Hyperlink (link.png)
+		- Google Video (
+		- Youtube Video (youtube.png)
+		- Help (help.png)
+	
 
 Add acts_as_versioned plugin for pages model
 

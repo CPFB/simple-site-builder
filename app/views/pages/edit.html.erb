@@ -13,7 +13,9 @@
   </p>
   <p>
     <%= f.label :body %><br />
-    <%= f.text_area :body %>
+		<%= render :partial => '/partials/bbcode_buttons', :locals => { :for_field => 'page_body' } -%>
+		<%= f.text_area :body -%>
+		<%= error_message_on :page, :body -%>
   </p>
   <p>
     <%= f.submit 'Update' %>

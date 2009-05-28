@@ -1,0 +1,13 @@
+<div style='margin-bottom: 2px;'>
+  <%= link_to image_tag('text_bold.png'), "javascript:BBcode.tag('b', '#{for_field}')", :title => 'Bold' -%>
+  <%= link_to image_tag('text_italic.png'), "javascript:BBcode.tag('i', '#{for_field}')", :title => 'Italic' -%>
+  <%= link_to image_tag('text_underline.png'), "javascript:BBcode.tag('u', '#{for_field}')", :title => 'Underline' -%>
+  <%= link_to image_tag('text_strikethrough.png'), "javascript:BBcode.tag('s', '#{for_field}')", :title => 'Strike Through' -%>
+  <%= link_to image_tag('insert_image.png'), "javascript:BBcode.image('#{for_field}')", :title => 'Insert Image' -%>
+  <%= link_to image_tag('link.png'), "javascript:BBcode.url('#{for_field}')", :title => 'Insert URL' -%>
+ 
+  <%= link_to image_tag('google.png'), "javascript:BBcode.gvideo('#{for_field}')", :title => 'Insert Google Video' -%>
+  <%= link_to image_tag('youtube.png'), "javascript:BBcode.yvideo('#{for_field}')", :title => 'Insert Youtube Video' -%>
+ 
+  <%= link_to image_tag('help.png'), "http://en.wikipedia.org/wiki/BBCode", :target => '_blank', :title => 'BBCode Help' -%>
+</div>
