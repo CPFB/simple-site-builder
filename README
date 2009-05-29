@@ -1,8 +1,11 @@
 This repository will include a Rails project that is the backbone for a user interface for non-techies to build an elegant website.
 
 Planned features include:
-custom routing for user generated pages
-custom templating system
-allowing other Rails code to be implemented easily via typical Rails development
-easy page composition/editing through the use of BBcode (instead of html)
-page revision history
+- custom routing for user generated pages (included currently)
+- custom templating system
+- allowing other Rails code to be implemented easily via typical Rails development
+- easy page composition/editing through the use of BBcode (included currently)
+- page revision history
+
+Thanks to http://www.famfamfam.com/lab/icons/silk/ for most of the icons found in the bbcode text editor.
+
